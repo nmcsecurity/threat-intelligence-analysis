@@ -4,10 +4,14 @@ Ref Name: NCSC_Trickbot_Brief_User_Guide.pdf
 Date: 27th September 2018
 # Executive Summary
 Although the National Cyber Security Center (NCSC) provide security advice to UK citizens, small, medium, large enterprises and Government, this busy readers guide’s target audience is unclear as it includes mitigations only within the capability of large enterprises and Government. What is clear is Tickbot is a serious threat and it is recommended that everyone reviews their security controls and verifies that they are effective.
+
 ---
+
 ## Threat Actor
 The threat actors that use the trickbot malware have not been directly identified within the report. Several targets have been identified and the primary mission has been identified as accessing online accounts including banking. A secondary mission has been alluded to as identity fraud, which will not be included in the appendix, due to the uses weak wording; in this case "can".
+
 ---
+
 ## Tactics and Techniques
 ### Initial Access
 Although well crafted email based phishing has been identified within the report, Spearphishing Link, Spearphishing Attachment or Spearphishing via Service has not been directly identified. When cross referencing known Trickbot techniques Spearphishing attachment has the highest probability of the initial access technique and has therefore been added to the appendix.
@@ -34,10 +38,12 @@ No techniques can be identified from the report content.
 No techniques can be identified from the report content.
 ### Impact
 No techniques can be identified from the report content.
+
 ---
+
 ## Mitigations
 Several direct links to NCSC own published guidance is included in the report and has therefore been included in the appendix, but the analysis of these link to identify mitigations are out of scope. Mitigations that can be retracted from the report are Execution Prevention (whitelisting), Antivirus/Antimalware, Update Software, Network Segmentation, Multi-factor Authentication.In addition Network Intrusion Prevention has been identified form security monitoring capability (analyse network intrusions).
-## Indicators of Compromise: inlcudes IP adresses, FQDNs, file hash values, string values
+## Indicators of Compromise
 ### IP Addresses
 No IoC of this type identified in the report.
 ### FQDN
@@ -46,12 +52,16 @@ No IoC of this type identified in the report.
 No IoC of this type identified in the report.
 ### Strings
 No IoC of this type identified in the report.
+
 ---
+
 ## Detections
 No detections identified in the report.
-## Summary: at text description of the sencondary analysis
+## Summary
 Several mitigations were in fact incident response, these included; “consider changing passwords”,”review bank and credit card statements for suspicious activity” and “Advise any employees who have accessed online banking facilities from the affected network to do likewise”. No new techniques can be added to the understanding of Trickbot from this report. Few mitigations identified are effective against wave 1 of a new threat actor campaign or not within the defense capability of known targets i.e “.. small and medium sized businesses, and individuals”. The mitigation of Antivirus/Antimalware can not be evaluated against per target or campaign wave targat list as no sample file has been identified.
+
 ===
+
 # Appendix
 ## Appendix Table
 Section | Detail | Reference
@@ -93,7 +103,7 @@ Indicators of Compromise FQDN | NULL | NULL
 Indicators of Compromise File HASH | NULL | NULL
 Indicators of Compromise String | NULL | NULL
 Detections | NULL | NULL
-Summary | NULL NULL
+Summary | NULL | NULL
 ## Appendix CSV
 ```
 
