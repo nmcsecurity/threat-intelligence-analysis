@@ -1,7 +1,9 @@
 # Threat Intelligence Analysis
-Ref Link: https://www.ncsc.gov.uk/news/trickbot-banking-trojan
-Ref Name: NCSC_Trickbot_Brief_User_Guide.pdf
-Date: 27th September 2018
+Type | Detail
+--- | --- 
+Ref Link: | https://www.ncsc.gov.uk/news/trickbot-banking-trojan
+Ref Name: | NCSC_Trickbot_Brief_User_Guide.pdf
+Date: | 27th September 2018
 # Executive Summary
 Although the National Cyber Security Center (NCSC) provide security advice to UK citizens, small, medium, large enterprises and Government, this busy readers guide’s target audience is unclear as it includes mitigations only within the capability of large enterprises and Government. What is clear is Tickbot is a serious threat and it is recommended that everyone reviews their security controls and verifies that they are effective.
 
@@ -43,6 +45,9 @@ No techniques can be identified from the report content.
 
 ## Mitigations
 Several direct links to NCSC own published guidance is included in the report and has therefore been included in the appendix, but the analysis of these link to identify mitigations are out of scope. Mitigations that can be retracted from the report are Execution Prevention (whitelisting), Antivirus/Antimalware, Update Software, Network Segmentation, Multi-factor Authentication.In addition Network Intrusion Prevention has been identified form security monitoring capability (analyse network intrusions).
+
+---
+
 ## Indicators of Compromise
 ### IP Addresses
 No IoC of this type identified in the report.
@@ -53,10 +58,13 @@ No IoC of this type identified in the report.
 ### Strings
 No IoC of this type identified in the report.
 
----
+--- 
 
 ## Detections
 No detections identified in the report.
+
+===
+
 ## Summary
 Several mitigations were in fact incident response, these included; “consider changing passwords”,”review bank and credit card statements for suspicious activity” and “Advise any employees who have accessed online banking facilities from the affected network to do likewise”. No new techniques can be added to the understanding of Trickbot from this report. Few mitigations identified are effective against wave 1 of a new threat actor campaign or not within the defense capability of known targets i.e “.. small and medium sized businesses, and individuals”. The mitigation of Antivirus/Antimalware can not be evaluated against per target or campaign wave targat list as no sample file has been identified.
 
