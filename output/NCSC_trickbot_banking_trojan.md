@@ -63,12 +63,12 @@ No IoC of this type identified in the report.
 ## Detections
 No detections identified in the report.
 
-===
+--- 
 
 ## Summary
 Several mitigations were in fact incident response, these included; “consider changing passwords”,”review bank and credit card statements for suspicious activity” and “Advise any employees who have accessed online banking facilities from the affected network to do likewise”. No new techniques can be added to the understanding of Trickbot from this report. Few mitigations identified are effective against wave 1 of a new threat actor campaign or not within the defense capability of known targets i.e “.. small and medium sized businesses, and individuals”. The mitigation of Antivirus/Antimalware can not be evaluated against per target or campaign wave targat list as no sample file has been identified.
 
-===
+--- 
 
 # Appendix
 ## Appendix Table
