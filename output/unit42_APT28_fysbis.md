@@ -110,7 +110,7 @@ Indicators of Compromise File HASH | MD5 | e107c5c84ded6cd9391aede7f04d64c8
 Indicators of Compromise File HASH | SHA-256 | fd8b2ea9a2e8a67e4cb3904b49c789d57ed9b1ce5bebfe54fe3d98214d6a0f61
 Indicators of Compromise File HASH | ssdeep | 6144:W/D5tpLWtr91gmaVy+mdckn6BCUdc4mLc2B9:4D5Lqgkcj+
 Indicators of Compromise File HASH | SHA-252 | ab6f39f913a925cf4e9fa7717db0e3eb38b5ae61e057a2e76043b539f3c0dc91
-Indicators of Compromise String | Command line | "ls /etc | egrep -e"fedora*|debian*|gentoo*|mandriva*|mandrake*|meego*|redhat*|lsb-*|sun-*|SUSE*|release""
+Indicators of Compromise String | Command line | "ls /etc "pipe" egrep -e"fedora*"pipe"debian*"pipe"gentoo*"pipe"mandriva*"pipe"mandrake*"pipe"meego*"pipe"redhat*"pipe"lsb-*|sun-*"pipe"SUSE*"pipe"release""
 Indicators of Compromise String | Command line | mkdir /usr/lib/sys-defender
 Detections xforce exchange | 198.105.125.74 | https://exchange.xforce.ibmcloud.com/ip/198.105.125.74
 Detections xforce exchange | 193.169.244.190 | https://exchange.xforce.ibmcloud.com/ip/193.169.244.190
