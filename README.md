@@ -22,7 +22,7 @@ Mitre ATT&CK https://attack.mitre.org/mitigations/enterprise/ and https://attack
 ### Indicators of Compromise:
 Inlcudes IP adresses, FQDNs, file hash values, string values
 ### Detections:
-Direct links to SIGMA https://github.com/Neo23x0/sigma YARA https://github.com/Neo23x0/signature-base , Virus Total https://www.virustotal.com/gui/home/search IBM Threat Exchange https://exchange.xforce.ibmcloud.com/ based on identified indicators from the Indicators of Compromise: section
+Direct links to SIGMA https://github.com/Neo23x0/sigma YARA https://github.com/Yara-Rules or https://github.com/Neo23x0/signature-base , Virus Total https://www.virustotal.com/gui/home/search IBM Threat Exchange https://exchange.xforce.ibmcloud.com/ based on identified indicators from the Indicators of Compromise: section
 ### Summary:
 A text description of the secondary analysis.
 ### Appendix:
