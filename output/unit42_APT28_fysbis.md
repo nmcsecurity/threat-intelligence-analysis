@@ -5,7 +5,7 @@ Ref Link: | https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux
 Ref Name: | a-look-into-fysbis-sofacys-linux-backdoor
 Date: | 12th February 2016
 # Executive Summary
-Unit 42 has provided a technical analysis of APT28/Sofacy Linux command and control agent and highlighted a capability the includes Apple devices. As identified in the report APT28/Sofacy targets government and defense with zero-day exploits to both Java and Microsoft Office applications, with the initial access vectors likely to be Spearphishing attachment, Drive-by Compromise or Exploit Public-Facing Application. It is therefore recommend that if you are within the target profile security control relating to Linux, MacOS and Apple iOS be verified as effective.
+Unit 42 has provided a technical analysis of APT28/Sofacy Linux command and control agent "fysbis" and highlighted a capability the includes Apple devices. As identified in the report APT28/Sofacy targets government and defense with zero-day exploits to both Java and Microsoft Office applications, with the initial access vectors likely to be Spearphishing attachment, Drive-by Compromise or Exploit Public-Facing Application. It is therefore recommend that if you are within the target profile security control relating to Linux, MacOS and Apple iOS be verified as effective.
 
 ---
 
@@ -81,8 +81,8 @@ Threat Actor | Targets defense | https://unit42.paloaltonetworks.com/a-look-into
 Threat Actor | Targets government | https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/
 Threat Actor | Targets Eastern European government | https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/
 Threat Actor | integrating legitimate company references | https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/
-Tactics and Techniques | Fysbis Primary Mitre Ref | https://attack.mitre.org/software/S0410/
-Tactics and Techniques | Buy domain name | https://attack.mitre.org/techniques/T1328/
+Tactics and Techniques Software | Fysbis Primary Mitre Ref | https://attack.mitre.org/software/S0410/
+Tactics and Techniques PreATT&CK | Buy domain name | https://attack.mitre.org/techniques/T1328/
 Tactics and Techniques Initial access | Spearphishing attachment | https://attack.mitre.org/techniques/T1193/
 Tactics and Techniques Initial access | Drive-by Compromise | https://attack.mitre.org/techniques/T1189/
 Tactics and Techniques Initial access | Exploit Public-Facing Application | https://attack.mitre.org/techniques/T1190/
@@ -130,7 +130,7 @@ Detections virustotal | fd8b2ea9a2e8a67e4cb3904b49c789d57ed9b1ce5bebfe54fe3d9821
 Detections virustotal | 6144:W/D5tpLWtr91gmaVy+mdckn6BCUdc4mLc2B9:4D5Lqgkcj+ | https://www.virustotal.com/gui/file/fd8b2ea9a2e8a67e4cb3904b49c789d57ed9b1ce5bebfe54fe3d98214d6a0f61/detection
 Detections virustotal | ab6f39f913a925cf4e9fa7717db0e3eb38b5ae61e057a2e76043b539f3c0dc91 |https://www.virustotal.com/gui/file/ab6f39f913a925cf4e9fa7717db0e3eb38b5ae61e057a2e76043b539f3c0dc91/detection
 Detections yara-rules | APT_Sofacy_Fysbis.yar | https://github.com/Yara-Rules/rules/blob/master/malware/APT_Sofacy_Fysbis.yar
-Summary | NULL |NULL
+Summary | NULL | NULL
 
 ## Appendix CSV
 ```

@@ -1,10 +1,10 @@
 # threat-intelligence-analysis
 threat intelligence analysis. Secondary analysis of threat intelligence reports.
 
-The goal of this work is to product output reports with key data extracted. This data can then be quickly consumed by your internal teams.
+The goal of this work is to produce output reports with key data extracted. This data can then then be quickly consumed by your internal teams.
 
-## MNC Security Ltd services
-MNC Security Ltd provides services that include the analysis of threat intelligence report and the extraction of key data. As part of these services there is an option for the customer to publish these reports to help the wider community.
+## NMC Security Ltd services
+NMC Security Ltd provides services that include the analysis of threat intelligence report and the extraction of key data. As part of these services there is an option for the customer to publish these reports to help the wider community.
 
 ## Git hub project content
 This secondary analysis output includes the following data types:
@@ -32,3 +32,11 @@ A structured collection of the secondary analysis.
 NMC Security Ltd activity invites the security community to contribute to the effort to extract key data form primary threat analysis; into a structure that is suitable to be imported into enterprise threat models, quickly consumed by internal teams or just quickly read.
 
 The primary threat intelligence report must be publicly available (linked) within the output or added to the input folder of this repository (Traffic Light Protocol: White).
+
+---
+
+# Threat Intelligence Analysis Content
+Original Ref link | Name | Threat Intelligence Analysis Link
+--- | --- | ---
+https://www.ncsc.gov.uk/news/trickbot-banking-trojan | NCSC_Trickbot_Brief_User_Guide.pdf | https://github.com/nmcsecurity/threat-intelligence-analysis/blob/master/output/NCSC_trickbot_banking_trojan.md
+https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/ | a-look-into-fysbis-sofacys-linux-backdoor | https://github.com/nmcsecurity/threat-intelligence-analysis/blob/master/output/unit42_APT28_fysbis.md
